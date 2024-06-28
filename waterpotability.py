@@ -9,7 +9,7 @@ import streamlit as st
 
 def inputprocessor():
     data = pd.read_csv("waterpotability.csv")
-    st.sidebar.header("WATER PORTABILITY INPUT PARAMETERS")
+    st.sidebar.header("WATER POTABILITY INPUT PARAMETERS")
 
     pH = st.sidebar.slider("pH", 0, 14, 7)
     Hardness = st.sidebar.text_input("Hardness", 129.5)
