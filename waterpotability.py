@@ -33,7 +33,7 @@ def inputprocessor():
         'Trihalomethanes': [Trihalomethanes],
         'Turbidity': [Turbidity],
     })
-    st.header("WATER PORTABILITY MODEL")
+    st.header("WATER POTABILITY MODEL")
     st.subheader("User Input Data")
     st.write(test_data)
     st.subheader("Results will appear in this section")
